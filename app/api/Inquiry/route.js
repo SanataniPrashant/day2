@@ -21,3 +21,14 @@ import dbConnect from '../../../libs/mongodb';
       return new Response({status:400})
    }
  }
+
+ export async function GET(req,res){
+  await dbConnect();
+  try {
+     const Data = await custModel.find();
+     console.log(Data);
+     return Response.json(Data);
+  } catch (error) {
+      return Response.json("error")
+  }
+}
