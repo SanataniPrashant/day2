@@ -1,0 +1,27 @@
+.header{
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(235, 229, 222);
+  width: 100%;
+
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 40px;
+  margin: 20px;
+
+}
+.nav a{
+  text-decoration: none;
+  color: black;
+}
+.nav a:hover{
+  color: blue;
+}

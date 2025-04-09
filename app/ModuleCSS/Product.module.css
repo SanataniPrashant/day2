@@ -1,0 +1,47 @@
+.product{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  color: black;
+}
+.product div{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.product div .card{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 470px;
+
+}
+.product div .card img{
+  margin-top: 10px;
+  width: 200px;
+  height: 200px ;
+  background-color: transparent;
+
+}
+.product div .card button{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+
+}
+
+.product div .card button:hover{
+  background-color: transparent;
+  color: blue;
+}
